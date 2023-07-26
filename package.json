@@ -1,0 +1,29 @@
+{
+  "name": "nextjs-hirejob",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.9",
+    "jwt-decode": "^3.1.2",
+    "lodash.debounce": "^4.0.8",
+    "next": "13.4.9",
+    "postcss": "8.4.25",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-paginate": "^8.2.0",
+    "sweetalert2": "^11.7.16",
+    "tailwindcss": "3.3.2"
+  },
+  "devDependencies": {
+    "daisyui": "^3.2.1"
+  }
+}

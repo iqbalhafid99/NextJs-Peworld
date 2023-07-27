@@ -8,11 +8,12 @@ export default function Home() {
         <div className="flex">
           <div className="flex-1 mt-60">
             <h1 className="text-[44px] font-semibold text-[#1F2A36] leading-[70px]">
-              Talenta terbaik negri <br /> untuk perubahan <br /> revolusi 4.0
+              Talenta terbaik negeri <br /> untuk perubahan <br /> revolusi 4.0
             </h1>
             <p className="mt-5 text-lg font-normal text-[#46505C]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In <br />
-              euismod ipsum et dui rhoncus auctor.
+              Revolusi industri 4.0 mendorong kita untuk mempersiapkan <br />
+              lingkungan kerja yang lebih baik serta sumber daya manusia yang
+              cepat dan tepat.
             </p>
             <Link href="/">
               <button className="mt-[55px] rounded py-[21px] px-6 bg-[#5E50A1] text-base font-bold text-white">
@@ -79,7 +80,7 @@ export default function Home() {
                   alt="Picture of the author"
                 />
                 <p className="text-base font-normal text-[#46505C]">
-                  Lorem ipsum dolor sit amet.
+                  Bakat dengan Jaringan Luas
                 </p>
               </div>
               <div className="flex gap-6 mt-7">
@@ -90,7 +91,7 @@ export default function Home() {
                   alt="Picture of the author"
                 />
                 <p className="text-base font-normal text-[#46505C]">
-                  Lorem ipsum dolor sit amet.
+                  Catatan Prestasi Terbukti
                 </p>
               </div>
               <div className="flex gap-6 mt-7">
@@ -101,7 +102,7 @@ export default function Home() {
                   alt="Picture of the author"
                 />
                 <p className="text-base font-normal text-[#46505C]">
-                  Lorem ipsum dolor sit amet.
+                  SDM yang berkualitas
                 </p>
               </div>
               <div className="flex gap-6 mt-7">
@@ -112,7 +113,7 @@ export default function Home() {
                   alt="Picture of the author"
                 />
                 <p className="text-base font-normal text-[#46505C]">
-                  Lorem ipsum dolor sit amet.
+                  Dukungan Berkelanjutan
                 </p>
               </div>
             </div>
@@ -124,8 +125,12 @@ export default function Home() {
               Skill Talent
             </h1>
             <p className="mt-5 text-lg font-normal text-[#46505C]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In <br />
-              euismod ipsum et dui rhoncus auctor.
+              Programmer berbakat yang memiliki kumpulan kemampuan unik yang{" "}
+              <br />
+              memungkinkan mereka menulis kode yang bersih, efisien, dan kuat{" "}
+              <br />
+              sambil menghadapi tantangan kompleks. Berbagai keterampilan
+              seperti :
             </p>
             <div className="mt-9 flex gap-[105px]">
               <div>
@@ -236,7 +241,7 @@ export default function Home() {
         <div className=" mt-[230px]">
           <div>
             <h1 className="text-center pt-[80px] mb-[52px] text-4xl font-semibold text-[#1F2A36]">
-              Their opinion about peworld
+              Talent Peworld
             </h1>
           </div>
           {/* <div className="w-full h-screen bg-[#E5E5E5]"> */}
@@ -256,8 +261,8 @@ export default function Home() {
                 Web Developer
               </h2>
               <p className="text-center px-[76px] mt-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                euismod ipsum et dui rhoncus auctor.
+                Seorang Frontend Developer Yang memiliki problem solving yang
+                sangat bagus dan juga pantang menyerah
               </p>
             </div>
             <div className="w-[340px] h-[440px] bg-gray-50 flex flex-col items-center justify-center">
@@ -275,8 +280,8 @@ export default function Home() {
                 Web Developer
               </h2>
               <p className="text-center px-[76px] mt-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                euismod ipsum et dui rhoncus auctor.
+                Saya seorang Backend Developer yang menguasai beberapa bahasa
+                pemrogamman dan tertarik untuk belajar hal yang baru.
               </p>
             </div>
             <div className="w-[340px] h-[440px] bg-gray-50 flex flex-col items-center justify-center">
@@ -294,8 +299,8 @@ export default function Home() {
                 Web Developer
               </h2>
               <p className="text-center px-[76px] mt-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                euismod ipsum et dui rhoncus auctor.
+                Seorang Fullstack developer yang memiliki antusias dibidang tech
+                dan memiliki problem solving yang bagus
               </p>
             </div>
           </div>
@@ -318,8 +323,8 @@ export default function Home() {
           </div>
           <div className="absolute flex gap-[505px] top-20">
             <h1 className="text-4xl font-semibold text-white ">
-              Lorem ipsum <br />
-              dolor sit amet
+              Temukan pilihanmu <br />
+              sekarang juga
             </h1>
             <Link href="/home">
               <button className="rounded py-[21px] px-6 bg-white text-base font-bold text-[#5E50A1]">

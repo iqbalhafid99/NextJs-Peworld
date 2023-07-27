@@ -16,8 +16,11 @@ export default function Footer() {
             />
           </div>
           <div className="text-lg font-normal text-white mt-8">
-            Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. In
-            euismod ipsum et dui <br /> rhoncus auctor.
+            Peworld mewakili solusi yang hemat biaya dan efisien, menghemat{" "}
+            <br />
+            waktu dan sumber daya berharga bagi bisnis, dan memberikan
+            kesempatan <br /> tak tertandingi bagi individu berbakat untuk
+            pertumbuhan karir dan kesuksesan.
           </div>
           <div className="flex justify-between  mt-16 border-t border-white pt-[30px]">
             <div>

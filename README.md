@@ -1,38 +1,118 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<br/>
+<p align="center">
+  <a href="https://github.com/iqbalhafid99/NextJs-Peworld">
+    <img src="https://i.postimg.cc/4y5MRT89/peworld-logo.png" alt="Logo" width="300" height="90">
+  </a>
 
-## Getting Started
+  <h3 align="center">Peworld Website</h3>
 
-First, run the development server:
+  <p align="center">
+    Finding the best jobs and workers
+    <br/>
+    <br/>
+    <a href="https://github.com/iqbalhafid99/NextJs-Peworld"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+    <a href="https://github.com/iqbalhafid99/NextJs-Peworld">View Demo</a>
+    .
+    <a href="https://github.com/iqbalhafid99/NextJs-Peworld/issues">Report Bug</a>
+    .
+    <a href="https://github.com/iqbalhafid99/NextJs-Peworld/issues">Request Feature</a>
+  </p>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## About The Project
+
+Peworld is an innovative platform that serves as a hub for job seekers and employers alike. Our mission is to create a mutually beneficial ecosystem where talented individuals can discover exciting career opportunities while employers find the perfect candidates for their needs.
+
+## Features
+
+- **Job Seekers** : Create a comprehensive profile showcasing your skills, experience, and achievements. Browse through a wide range of job listings and apply directly to the ones that match your expertise.
+- **Employers** : Post job openings, detailing the requirements and responsibilities. Access a pool of talented professionals and find the best fit for your organization.
+- **Personalized Recommendations** : Our advanced algorithm suggests tailored job recommendations to job seekers and potential candidate matches to employers, making the job search process more efficient.
+- **Efficient Communication** : Seamlessly connect with potential employers or job seekers through our integrated messaging system to facilitate smooth and effective communication.
+- **Career Resources** : Access valuable resources such as career tips, interview guidance, and industry insights to enhance your professional growth.
+- **User-Friendly Interface** : Our website boasts an intuitive and user-friendly interface, ensuring a seamless experience for all users.
+
+## Tech Stack
+
+**Client:** Next.js 13, Tailwind css, DaisyUI
+
+**Server:** Node, Express
+
+## Installation
+
+If you want to run this project locally, we recommend you configure the back-end first before configuring this repo front-end.
+
+- Clone the Repo
+
+```
+  git clone https://github.com/iqbalhafid99/NextJs-Peworld
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Go To Folder Repo
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+  cd nextjs-hirejob
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Install Module
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+  npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Setup .env
 
-## Learn More
+```
+  NEXT_PUBLIC_API_URL =
+```
 
-To learn more about Next.js, take a look at the following resources:
+- Type `npm run dev` To Start Development
+- Type `npm run start` To Start Production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Screenshot
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## More Screenshoot
 
-## Deploy on Vercel
+| <h3>Login Worker Page</h3>                                                                                                                       | <h3>Register Worker Page</h3>                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img align="center" width="500" src="https://res.cloudinary.com/debq83qwn/image/upload/v1690425909/portfolio/hire-job/mp2dgia6qcpshfet2wfn.jpg"> | <img align="center" width="500" src="https://res.cloudinary.com/debq83qwn/image/upload/v1690425909/portfolio/hire-job/tkhnpjf1wvaaaijyamva.jpg"> |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| <h3>Login Employer Page</h3>                                                                                                                     | <h3>Register Employer Page</h3>                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img align="center" width="500" src="https://res.cloudinary.com/debq83qwn/image/upload/v1690425909/portfolio/hire-job/lotrygue6qhq1zw5hudb.jpg"> | <img align="center" width="500" src="https://res.cloudinary.com/debq83qwn/image/upload/v1690425909/portfolio/hire-job/xlxmmwbvka7wb00tr8dj.jpg"> |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+| <h3>Home Page</h3>                                                                                                                               | <h3>Home Page (After Login)</h3>                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img align="center" width="500" src="https://res.cloudinary.com/debq83qwn/image/upload/v1690425909/portfolio/hire-job/esybtflqpcqdxdhmluf4.jpg"> | <img align="center" width="500" src="https://res.cloudinary.com/debq83qwn/image/upload/v1690425909/portfolio/hire-job/b5ys814ycxj5pdh2byns.jpg"> |
+
+| <h3>PortoFolio Page</h3>                                                                                                                         | <h3>Experience Page</h3>                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img align="center" width="500" src="https://res.cloudinary.com/debq83qwn/image/upload/v1690425910/portfolio/hire-job/n1zxt1qoexrxony77sa1.jpg"> | <img align="center" width="500" src="https://res.cloudinary.com/debq83qwn/image/upload/v1690425909/portfolio/hire-job/pmvgs9je2xdziupoi2tv.jpg"> |
+
+| <h3>Employer Profile Page</h3>                                                                                                                   | <h3>Employer Edit Profile Page</h3>                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img align="center" width="500" src="https://res.cloudinary.com/debq83qwn/image/upload/v1690425910/portfolio/hire-job/imcfqugruoyrnbrvy0ii.jpg"> | <img align="center" width="500" src="https://res.cloudinary.com/debq83qwn/image/upload/v1690425910/portfolio/hire-job/relg6u3odtpnzxxujgsw.jpg"> |
+
+| <h3>Worker Edit Profile Page</h3>                                                                                                                | <h3>Top Talent Page</h3>                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img align="center" width="500" src="https://res.cloudinary.com/debq83qwn/image/upload/v1690425910/portfolio/hire-job/oey0yvzckj90e6a2ze5z.jpg"> | <img align="center" width="500" src="https://res.cloudinary.com/debq83qwn/image/upload/v1690425910/portfolio/hire-job/m4iatsyghwhckhn4uvrx.jpg"> |
+
+| <h3>Hiring Page</h3>                                                                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img align="center" width="500" src="https://res.cloudinary.com/debq83qwn/image/upload/v1690425910/portfolio/hire-job/mopunfommxilvkxzwqsn.jpg"> |
+
+## Related Project
+
+:rocket: [`REST API Peworld`](https://github.com/iqbalhafid99/Peworld-Backend)
+
+## Contact
+
+- Email : [`mohiqbalhafid@gmail.com`](mailto:mohiqbalhafid@gmail.com)
+
+- LinkedIn : [`/in/mohiqbalhafid`](https://www.linkedin.com/in/mohiqbalhafid/)
+
+- GitHub : [`iqbalhafid99`](https://github.com/iqbalhafid99)
+
+- Instagram : [`iqbalhafid_`](https://www.instagram.com/iqbalhafid_/)
